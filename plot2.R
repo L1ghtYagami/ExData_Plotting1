@@ -8,7 +8,7 @@ df <- load_data()
 df <- modify_df(df)
 
 # Open the png graphics device
-png("plot2.png")
+png("plot2.png", width = 480, height = 480)
 
 # Plot the graph. Specifying type="n" so that no point gets plotted
 plot(df$Date.Time, df$Global_active_power, type = "n",

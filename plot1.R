@@ -5,7 +5,7 @@ source("load_and_process_data.R")
 df <- load_data()
 
 # Open the png graphics device
-png("plot1.png")
+png("plot1.png", width = 480, height = 480)
 
 # Plot the graph
 hist(df$Global_active_power, col = "red", main = "Global Active Power",

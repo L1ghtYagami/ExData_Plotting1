@@ -8,7 +8,7 @@ df <- load_data()
 df <- modify_df(df)
 
 # Open the png graphics device
-png("plot4.png")
+png("plot4.png", width = 480, height = 480)
 
 # Set the global parameters
 # Number of rows and columns in the graphs

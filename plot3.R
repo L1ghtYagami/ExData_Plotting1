@@ -8,7 +8,7 @@ df <- load_data()
 df <- modify_df(df)
 
 # Open the png graphics device
-png("plot3.png")
+png("plot3.png", width = 480, height = 480)
 
 # Plot the graph. Specifying type="n" so that no point gets plotted
 plot(df$Date.Time, df$Sub_metering_1, type = "n",
